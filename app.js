@@ -92,8 +92,9 @@ app.use(function (err, req, res, next) {
     
 });
   
+const port = process.env.PORT || 3000;
 
-app.listen(3000,()=>{
+app.listen(port,()=>{
     console.log("running on port 3000");
 })
 
