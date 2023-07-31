@@ -1,0 +1,24 @@
+.sidebar-nav {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.col-sm-2{
+    background-color: aliceblue;
+    min-height: 100vh;
+}
+
+.searchdiv{
+    display: flex;
+    align-items: center;
+    width: 70vw;
+}
+
+.error{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
