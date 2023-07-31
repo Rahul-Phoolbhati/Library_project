@@ -1,7 +1,11 @@
 {
-  "name": "local_library",
+  "name": "library_project",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": ">=20.3.0"
+  },
+  "private": true,
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
